@@ -1,17 +1,15 @@
-/* eslint-disable no-plusplus */
 import './style.css';
 
 let count = 0;
 
-function cc(card) {
-  // eslint-disable-next-line default-case
+const cc = (card) => {
   switch (card) {
     case 2:
     case 3:
     case 4:
     case 5:
     case 6:
-      count++;
+      count += 1;
       break;
 
     case 10:
@@ -19,16 +17,14 @@ function cc(card) {
     case 'Q':
     case 'K':
     case 'A':
-      count--;
+      count -= 1;
+      break;
+
+    default:
       break;
   }
-
-  if (count > 0) {
-    return `${count} Bet`;
-  }
-
-  return `${count} Hold`;
-}
+  return `${count} ${count === 1 ? 'Bet' : 'Holds'}`;
+};
 
 console.log(cc(2));
 console.log(cc(3));
