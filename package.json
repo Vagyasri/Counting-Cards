@@ -1,7 +1,7 @@
 {
   "name": "counting-cards",
   "version": "1.0.0",
-  "description": "In this project, we are creating a website consisting of Recipes from around the world. We are using a Kanban board for practice purposes and we have used an external API.s",
+  "description": "I have created a card counting function. It will receive a card parameter, which can be a number or a string, and increment or decrement the global count variable according to the card's value. The function will then return a string with the current count and the string `Bet` if the count is `positive`, or `Hold` if the count is `zero or negative`.",
   "private": true,
   "scripts": {
     "test": "jest",
