@@ -1,6 +1,20 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Counting Cards
 
-# Project
+- In the casino game Blackjack, a player can gain an advantage over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called Card Counting.
+
+- Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.
+
+- I have created a card counting function. It will receive a card parameter, which can be a number or a string, and increment or decrement the global count variable according to the card's value. The function will then return a string with the current count and the string Bet if the count is positive, or Hold if the count is zero or negative. The current count and the player's decision (Bet or Hold) should be separated by a single space.
+
+![Card](src/Card.png) 
+
+#### Example Outputs:
+-3 Hold or 5 Bet
+
+#### Hint:
+- Do NOT reset count to 0 when value is 7, 8, or 9.
+- Do NOT return an array.
+- Do NOT include quotes (single or double) in the output.
 
 ## Built With
 
@@ -9,16 +23,10 @@
 - JavaScipt
 - Webpack
 - ES6
-- External API
-- JSON
-
-## Screenshot
-
-![Drum](Drum.png) 
 
 ## Live Demo
 
-[Live View!!](https://vagyasri.github.io/Leaderboard/dist/)
+[Live View!!](https://vagyasri.github.io/Counting-Cards/dist/)
 
 ## Author
 
@@ -38,9 +46,9 @@
 
 ### Cloning the repo to your local system (If you already have git, installed in your system):
 
-- [Copy this link](https://github.com/Vagyasri/Kanban.git)
+- [Copy this link](https://github.com/Vagyasri/Counting-Cards.git)
 - Open your terminal or command line
-- Run "git clone [Paste this link](https://github.com/Vagyasri/Kanban.git)"
+- Run "git clone [Paste this link](https://github.com/Vagyasri/Counting-Cards.git)"
 - Open the folder with your code editor
 - Now You can edit the code and check the changes in the browser using Live Server
 
@@ -81,7 +89,7 @@ Start by:
 - Push your branch up to your forked repository
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](https://github.com/Vagyasri/Kanban/issues), contribute to the Project by creating an issue.
+Feel free to check the [issues page](https://github.com/Vagyasri/Counting-Cards/issues), contribute to the Project by creating an issue.
 
 
 ## Show your support
