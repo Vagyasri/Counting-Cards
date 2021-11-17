@@ -23,7 +23,7 @@ const cc = (card) => {
     default:
       break;
   }
-  return `${count} ${count === 1 ? 'Bet' : 'Hold'}`;
+  return `${count} ${count > 0 ? 'Bet' : 'Hold'}`;
 };
 
 console.log(cc(2));
