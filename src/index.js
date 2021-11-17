@@ -31,3 +31,6 @@ console.log(cc(3));
 console.log(cc(7));
 console.log(cc('K'));
 console.log(cc('A'));
+
+//Cards Sequence 2, 3, 4, 5, 6 should return 5 Bet
+(cc(2)); (cc(3)); (cc(4)); (cc(5)); console.log(cc(6));
